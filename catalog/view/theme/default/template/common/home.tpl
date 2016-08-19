@@ -24,7 +24,15 @@
         <?php } ?>
 
 
-        <?php echo $content_bottom; ?></div>
+        <?php echo $content_bottom; ?>
+
+    <div class="col-xs-12 banners">
+        <div class="col-xs-4 banner"><img src="/catalog/view/theme/default/image/map.jpg" alt=""><a href="#">Карта магазинов</a></div>
+        <div class="col-xs-4 banner"><img src="/catalog/view/theme/default/image/car.jpg" alt=""><a href="#">Доставка в течении часа</a></div>
+        <div class="col-xs-4 banner"><img src="/catalog/view/theme/default/image/akcia.jpg" alt=""><a href="#">Акции</a></div>
+    </div>
+
+        </div>
     <?php echo $column_right; ?></div>
 </div>
 <?php echo $footer; ?>
