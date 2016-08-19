@@ -898,3 +898,50 @@ position: relative;
     color: #000;
     font-size: 14px;
 }
+.footer {
+	background: #fff;
+	    border-bottom: 1px #b1b1b1 solid;
+}
+
+.soc {
+    width: 360px;
+    margin: 0 auto;
+    padding-top: 60px;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+.soc a {
+	display: block;
+	float: left;
+	width: 35px;
+    height: 35px;
+	background: url(../image/soc.png);
+	margin: 2px;
+}
+
+a.soc2 {
+	background-position: -36px 0;
+}
+a.soc3 {
+	background-position: -75px 0;
+}
+
+a.soc4 {
+	background-position: -115px 0;
+}
+a.soc5 {
+	background-position: -153px 0;
+}
+a.soc6 {
+	background-position: -191px 0;
+}
+a.soc7 {
+	background-position: -231px 0;
+}
+a.soc8 {
+	background-position: -271px 0;
+}
+a.soc9 {
+	background-position: -307px 0;
+}
