@@ -7,6 +7,10 @@ body {
 	width: 100%;
 	background: #ebebed;
 }
+
+.row {
+	margin: 0!important;
+}
 .container {
 	width: 732px!important;
 	padding: 0!important;
@@ -322,6 +326,8 @@ div.required .control-label:before {
 /* content */
 #content {
 	min-height: 600px;
+	background: #fff;
+	padding: 0;
 }
 /* footer */
 footer {
@@ -828,4 +834,44 @@ line-height: 27px;
 
 .menu a:hover {
 	color: #f1782c;
+}
+
+.menu-home {
+	padding: 0;
+}
+.menu-home ul {
+	list-style: none;
+}
+
+.menu-home li {
+	display: block;
+	float: left;
+	width: 164px;
+height: 164px;
+border: 1px solid #dedede;
+margin-left: 12px;
+position: relative;
+}
+
+.menu-home img {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+
+}
+
+.menu-home a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.menu-home a:hover {
+	-webkit-filter: grayscale(70%);
 }

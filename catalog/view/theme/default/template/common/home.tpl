@@ -8,7 +8,23 @@
     <?php } else { ?>
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
-    <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?><?php echo $content_bottom; ?></div>
+    <div id="content" class="<?php echo $class; ?>">
+
+    <?php echo $content_top; ?>
+
+
+    <?php if ($categories) { ?>
+    <div class="col-xs-9 menu-home">
+         <?php foreach ($categories as $category) { ?>
+        
+        <li><a style="background: url('<?php echo $category['image']; ?>');" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+        
+        <?php } ?>
+        </div>
+        <?php } ?>
+
+
+        <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
 <?php echo $footer; ?>
