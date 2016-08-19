@@ -42,7 +42,7 @@
 <header>
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <div id="logo">
           <?php if ($logo) { ?>
           <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
@@ -51,9 +51,9 @@
           <?php } ?>
         </div>
       </div>
-      <div class="col-sm-5">
+      <div class="col-sm-4 deliv"><img src="/catalog/view/theme/default/image/del.png" alt="">
       </div>
-      <div class="col-sm-3"></div>
+      <div class="col-sm-5"><div class="zvonok">Позвони нам </div><img class="pizza" src="/catalog/view/theme/default/image/logo_pizza.png" alt=""></div>
     </div>
   </div>
 </header>
