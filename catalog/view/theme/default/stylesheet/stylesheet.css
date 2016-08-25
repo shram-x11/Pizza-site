@@ -945,3 +945,28 @@ a.soc8 {
 a.soc9 {
 	background-position: -307px 0;
 }
+
+.content {
+	background: #fff;
+
+}
+
+.content-top {
+	height: 160px;
+	padding: 0;
+}
+
+.content-top h2 {
+	    font-size: 18px;
+    line-height: 3px;
+    font-weight: bold;
+}
+
+.category-img {
+	padding: 0;
+	border-left: 1px solid #ccc;
+}
+
+.category-content {
+	border-left: 1px solid #ccc;
+}
